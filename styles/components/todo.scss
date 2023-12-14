@@ -1,0 +1,85 @@
+#todo {
+  height: 90%;
+  overflow: auto;
+
+  form {
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 670px;
+    padding-top: 17px;
+    z-index: 9999;
+    border-bottom: 1px solid #828282;
+    .inputTitle {
+      width: 380px;
+      height: 40px;
+      border: 1px solid #828282;
+      border-radius: 5px;
+      padding: 15px 14px;
+    }
+    .datePick {
+      border: 1px solid #828282;
+      border-radius: 5px;
+      height: 40px;
+      padding: 15px;
+      width: 193px;
+    }
+    .textarea {
+      //   border: 1px solid #828282;
+      //   border-radius: 5px;
+      padding: 15px 14px;
+      margin-left: 4px;
+    }
+    .cta {
+      button {
+        background: #2f80ed;
+        border-radius: 5px;
+        height: 40px;
+        width: 98.8px;
+        padding: 8px 16px;
+      }
+    }
+  }
+
+  .todo-item {
+    border-bottom: 1px solid #828282;
+    // padding-bottom: 22px;
+    padding-top: 22px;
+
+    .accordion {
+      padding-bottom: 22px;
+    }
+
+    .check {
+      width: 18px;
+      height: 18px;
+      margin-right: 22.5px;
+      margin-top: 6px;
+    }
+
+    .datePick {
+      border: 1px solid #828282;
+      border-radius: 5px;
+      height: 40px;
+      padding: 15px;
+      width: 193px;
+    }
+
+    .deletePopup {
+      height: 43px;
+      width: 126px;
+      border: 1px solid #828282;
+      border-radius: 5px;
+      position: absolute;
+      padding: 8px 18px;
+      background: white;
+      margin-top: 6px;
+      margin-left: -110px;
+    }
+
+    .descActive {
+      border: 1px solid #828282;
+      border-radius: 5px;
+    }
+  }
+}

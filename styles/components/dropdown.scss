@@ -1,0 +1,27 @@
+#dropdown {
+  .dropdown-toggle {
+    border: 1px solid #828282;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 40px;
+    width: 118.55px;
+    padding: 7px 14px;
+  }
+
+  .dropdown-menu {
+    margin-top: 7px;
+    width: 288px;
+    background: #ffffff;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99999;
+  }
+
+  .dropdown-item {
+    padding: 10px 15px;
+    &:first-child {
+      border-bottom: 1px solid #828282;
+    }
+  }
+}

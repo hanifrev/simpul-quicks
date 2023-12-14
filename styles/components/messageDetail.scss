@@ -1,0 +1,39 @@
+#modalInboxDetail {
+  position: absolute;
+  width: 734px;
+  height: 100%;
+  max-height: 737px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(../../src/assets/breaklineChat.svg);
+  background-position: center 85.5px;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+
+  .chatList {
+    height: 554px;
+    margin-top: 31.5px;
+    padding-bottom: 25px;
+  }
+
+  .fieldChat {
+    bottom: 19px;
+    position: absolute;
+    input {
+      // position: absolute;
+      width: 580px;
+      height: 40px;
+      // left: 1198px;
+      // top: 911px;
+      border: 1px solid #828282;
+      border-radius: 5px;
+      padding: 10px 16px;
+    }
+    button {
+      width: 76px;
+      height: 40px;
+      background: #2f80ed;
+      border-radius: 5px;
+    }
+  }
+}

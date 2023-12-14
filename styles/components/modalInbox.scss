@@ -1,0 +1,18 @@
+#modalInbox {
+  position: absolute;
+  width: 734px;
+  height: 70%;
+  max-height: 737px;
+  right: 34px;
+  bottom: 120px;
+
+  input {
+    border: 1px solid #828282;
+    border-radius: 5px;
+    width: 666px;
+    height: 32px;
+    background-image: url(../../src/assets/search_24px.svg);
+    background-position: 593px center;
+    background-repeat: no-repeat;
+  }
+}

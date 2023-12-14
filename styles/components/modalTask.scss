@@ -1,0 +1,25 @@
+#modalTask {
+  position: absolute;
+  width: 734px;
+  height: 70%;
+  max-height: 737px;
+  right: 34px;
+  bottom: 120px;
+
+  .header {
+    select {
+      border: 1px solid #828282;
+      border-radius: 5px;
+      background: #ffffff;
+      height: 40px;
+      width: 118.55px;
+    }
+    button {
+      background: #2f80ed;
+      border-radius: 5px;
+      height: 40px;
+      width: 98.8px;
+      padding: 8px 16px;
+    }
+  }
+}
